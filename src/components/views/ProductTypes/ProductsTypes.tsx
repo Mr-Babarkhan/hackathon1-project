@@ -11,7 +11,7 @@ const ProductsType = () => {
 
       {/* Heading */}
       <div className="text-center space-y-3">
-        <p className="text-blue-800 text-sm">PROMOTIONS</p>
+        <p className="text-blue-600 font-semibold text-sm">PROMOTIONS</p>
         <h3 className="text-3xl text-gray-800 font-bold">Our Promotions Events</h3>
       </div>
 
@@ -25,7 +25,7 @@ const ProductsType = () => {
             <p className="text-xl">For the summer season</p>
           </div>
           <div className="w-64">
-            <Image className="md:scale-125" alt="summer season" src={Promotion1} />
+            <Image className="md:scale-105" alt="summer season" src={Promotion1} />
           </div>
         </div>
 
