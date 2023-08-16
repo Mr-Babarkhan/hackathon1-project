@@ -1,10 +1,12 @@
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "full-stack-ecommerce-clothing-web.vercel.app",
+                hostname: "bk-ecommerce.vercel.app",
                 port: "",
                 pathname: "/**",
             },
@@ -16,7 +18,7 @@ const nextConfig = {
             },
             // {
             //     protocol: "https",
-            //     hostname: "abdulbasit-self.vercel.app",
+            //     hostname: "todo-application-ten.vercel.app",
             //     port: "",
             //     pathname: "/**",
             // },
