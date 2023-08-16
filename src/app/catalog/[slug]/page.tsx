@@ -1,12 +1,12 @@
-import React, { FC } from 'react'
+// import React, { FC } from 'react'
 
-const Catalog:FC<{params:{slug:string}}> = ({params}) => {
-    console.log(params.slug)
-  return (
-    <div>
-        {params.slug}
-    </div>
-  )
-}
+// const Catalog:FC<{params:{slug:string}}> = ({params}) => {
+//     console.log(params.slug)
+//   return (
+//     <div>
+//         {params.slug}
+//     </div>
+//   )
+// }
 
-export default Catalog
+// export default Catalog
