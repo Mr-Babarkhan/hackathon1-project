@@ -1,7 +1,10 @@
 import ProductCarousal from "@/components/ProductCarousal";
 import BASE_PATH_FORAPI from "@/components/shared/BasePath";
 import { responseType } from "@/components/utils/ProductArrayAndDataTypes";
+import Footer from "@/components/views/Footer";
 import Hero from "@/components/views/Hero/Hero";
+import Jewellary from "@/components/views/Jewellary";
+import NewsLetter from "@/components/views/NewsLetter";
 import ProductsType from "@/components/views/ProductTypes/ProductsTypes";
 import { client } from "@/lib/SanityClient";
 
@@ -22,6 +25,9 @@ export default async function Home() {
    <Hero/>
    <ProductsType/> 
    <ProductCarousal ProductData={response}/>
+   <Jewellary/> 
+   <NewsLetter/>
+   
    </>
   )
 }

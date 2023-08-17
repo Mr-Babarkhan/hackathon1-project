@@ -18,9 +18,9 @@ export default function NavBar() {
   return (
     <div className="sticky top-0 z-50 bg-opacityDownColor backdrop-blur-lg">
           <div className=" py-4 flex justify-between items-center">
-        <div className="w-36">
+        <Link href={'/'} className="w-36 flex shrink-0">
         <Image width={500} height={500} src={Logo} alt="LOgo"/>
-        </div>
+        </Link>
         
         <div className="hidden md:flex justify-between items-center space-x-4 ">
        <ul className=" space-x-4 font-medium text-lg flex">
