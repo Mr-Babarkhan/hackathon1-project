@@ -6,7 +6,7 @@ import ProductsType from "@/components/views/ProductTypes/ProductsTypes";
 import { client } from "@/lib/SanityClient";
 
 async function fetchAllProductsData (){
-  let res =await fetch(`https://${process.env.NEXT_PUBLIC_SANITY_PROJECT_ID}.api.sanity.io/v2023-07-08/data/query/production?query=*[_type == "products"]`)
+  let res =await fetch(`${BASE_PATH_FORAPI}/api/products`)
   if(!res.ok){
         throw new Error("failed to fetch")
   }
