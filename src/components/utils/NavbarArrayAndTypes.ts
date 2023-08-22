@@ -14,7 +14,7 @@ export const NavbarArray: Array<NavbarItemType> = [
         dropDownData: [
             {
                 label: "Dresses",
-                href: "/female/Dresse",
+                href: "/female/Dress",
                 isDropDown: false,
             },
             {

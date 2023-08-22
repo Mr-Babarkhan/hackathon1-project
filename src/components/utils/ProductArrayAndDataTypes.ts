@@ -33,6 +33,7 @@ export interface oneProductType {
     price: number,
 }
 
-export interface responseType {
-    response: Array<oneProductType>
+export interface resultType {
+    result: Array<oneProductType>
 }
+
