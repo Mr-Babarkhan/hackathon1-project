@@ -9,6 +9,7 @@ interface propsType {
     productArray: Array<oneProductType>
 }
 
+
 export default class AllProductsCompo extends Component<{ ProductData: propsType }> {
     start: number = 10;
     end: number = 20;
