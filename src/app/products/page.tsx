@@ -13,7 +13,7 @@ async function fetchAllProductData() {
 const Products = async () => {
     const ProdutcData = await fetchAllProductData()
     return (
-        <AllProductsCompo ProductData={ProdutcData} />
+        <AllProductsCompo produtcData={ProdutcData} />
     )
 }
 
