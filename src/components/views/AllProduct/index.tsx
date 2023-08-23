@@ -9,11 +9,11 @@ interface propsType {
     productArray: Array<oneProductType>
 }
 
-export default class AllProductsCompo extends Component<{ produtcData: propsType }> {
+export default class AllProductsCompo extends Component<{ ProdutcData: propsType }> {
     start: number = 10;
     end: number = 20;
     state: { items: Array<oneProductType>, hasMore: boolean } = {
-        items: [...this.props.produtcData.productArray],
+        items: [...this.props.ProdutcData.productArray],
         hasMore: true,
     }
     fetchDataFromApiGradually = async (start: number, end: number) => {
